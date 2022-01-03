@@ -24,6 +24,8 @@ In addition to the blac.data, three different csv (comma separated files) are al
 1. Download the blac.data and three csv files (energy.csv, energy_terms_index.csv, pc.csv) and keep in the same directory containing the python script (econtact.py).
 2. Run the econtact.py script on the terminal: python econtact.py. The econtact.py script will show the top ten per-residue energy terms and the top two potential cross-talks in the terminal screen (V-M-THR-253: V-S-ILE-117 and V-M-THR-253:H-M-THR-253) with its respective Eigen vectors/loadings computed using PCA. Note down the per-residue energy terms of the cross-talks to compute the jPDF metric for the validation test.
 
+![alt text](https://github.com/Prasanth-Kumar87/ECONTACT/blob/bf4200dd4a7f61c02936da4de439e77f2eb825ce/jpdfpy.png)
+
 **Data preparation for executing jPDF.py script**
 
 jPDF.py script requires two csv files (Training_jPDF.csv and Testing_jPDF.csv) to execute the jPDF calculations. The 6 beta-lactamase-ligand complexes were regarded as the training set which contained the values of per-residue energy terms (V-M-THR-253 and V-S-ILE-117) of the first cross-term (V-M-THR-253:V-S-ILE-117) in two columns of the csv. Similarly, a validation set using five PDB entries (3n7w, 3n8r, 3nc8, 3nde and 3ndg) is composed and chosen only those corresponding per-residue energy terms of the training set (see table below).
