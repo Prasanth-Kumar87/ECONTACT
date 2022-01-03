@@ -56,4 +56,4 @@ The econtact and jPDF python scripts along with the example set can be downloade
 
 **Contributor and help in execution:**
 
-prasanthbioinformatics[gmail]com
+Prasanth Kumar (prasanthbioinformatics[at]gmail.com)
