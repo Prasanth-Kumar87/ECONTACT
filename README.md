@@ -36,6 +36,8 @@ jPDF.py script requires two csv files (Training_jPDF.csv and Testing_jPDF.csv) t
 
 Run the jPDF.py script on the terminal: python jPDF.py. The jPDF.py script will output the calculated jPDF value of the supplied validation set of 5 blaC-ligand complexes. The jPDF metric quantifies how much strength the bound ligand is contributing to its interactions with two amino acids of cross-terms. The jPDF value close to 1 indicates the very close observation of cross-talks present in the modelling set. The jPDF results indicate that the 3nde (jPDF = 0.6; forth complex) possess 60 % probability of the presence of cross-talk in its structure. The first and fifth complexes (3n7w and 3ndg) attained jPDF value > 1 illustrating the higher strength of intermolecular interactions of its bound ligand with the two amino acid residues of cross-talk comparatively than the jPDF support set.
 
+![alt text](https://github.com/Prasanth-Kumar87/ECONTACT/blob/6bea748d7dc3a635611ba71a04985269dc7baac6/jpdfpy_1.png)
+
 **Customizing econtact.py and jPDF.py script for new dataset:**
 
 Edit the econtact.py script and jPDF.py according to your needs. The file name of the data (e.g. blac.data) should be specified inside the script. Accordingly, the three associate csv files viz. energy.csv, energy_terms_index.csv, pc.csv have to be modified following the formatting given in the example files. Similarly, the two input csv files (Training_jPDF.csv and Testing_jPDF.csv) of jPDF.py have to be edited according to the results of econtact.py. Users may contact us if they need assistance in the calculations by entering details in the Contact section.
