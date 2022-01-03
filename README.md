@@ -15,7 +15,7 @@ The ECONTACT approach transforms the per-residue energy terms derived from multi
 
 This example demonstrates how ECONTACT approach can be used to identify the cross-talks of beta-lactamase enzyme complexed with different inhibitors. GEMDOCK (AMBER-like) and OPLS3e force fields were employed to validate this approach. The iGEMDOCK program was used to derive per-residue energy terms for ligands bound to six beta-lactamase crystal structures (3n6i, 3n8l, 3n8s, 3nbl, 3nck and 3vff) and retained only those energy terms (columns) which scored energy value in least 80 % of the dataset (i.e. 80 % of 6 beta-lactamase complexes = 4.80, round-off to 4 complexes). This refined dataset is used to compute cross-talks (blac.data) comprising 37 per-residue energy terms.
 
-**Data preparation for executing ECONTACT.py script:**
+**Data preparation for executing ECONTACT.py script**
 
 In addition to the blac.data, three different csv (comma separated files) are also needed to be kept inside the working directory.
 
@@ -42,15 +42,15 @@ Run the jPDF.py script on the terminal: python jPDF.py. The jPDF.py script will 
 
 ![alt text](https://github.com/Prasanth-Kumar87/ECONTACT/blob/6bea748d7dc3a635611ba71a04985269dc7baac6/jpdfpy_1.png)
 
-**Customizing econtact.py and jPDF.py script for new dataset:**
+**Customizing econtact.py and jPDF.py script for new dataset**
 
 Edit the econtact.py script and jPDF.py according to your needs. The file name of the data (e.g. blac.data) should be specified inside the script. Accordingly, the three associate csv files viz. energy.csv, energy_terms_index.csv, pc.csv have to be modified following the formatting given in the example files. Similarly, the two input csv files (Training_jPDF.csv and Testing_jPDF.csv) of jPDF.py have to be edited according to the results of econtact.py. Users may contact us if they need assistance in the calculations by sending an email to the contributor.
 
-**Installation (any OS):**
+**Installation (any OS)**
 
 Python 2.7 or later with matplotlib, numpy and pandas dependencies
 
-**Downloads:**
+**Downloads**
 
 The econtact and jPDF python scripts along with the example set can be downloaded here.
 
