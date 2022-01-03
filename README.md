@@ -40,7 +40,7 @@ Run the jPDF.py script on the terminal: python jPDF.py. The jPDF.py script will 
 
 **Customizing econtact.py and jPDF.py script for new dataset:**
 
-Edit the econtact.py script and jPDF.py according to your needs. The file name of the data (e.g. blac.data) should be specified inside the script. Accordingly, the three associate csv files viz. energy.csv, energy_terms_index.csv, pc.csv have to be modified following the formatting given in the example files. Similarly, the two input csv files (Training_jPDF.csv and Testing_jPDF.csv) of jPDF.py have to be edited according to the results of econtact.py. Users may contact us if they need assistance in the calculations by entering details in the Contact section.
+Edit the econtact.py script and jPDF.py according to your needs. The file name of the data (e.g. blac.data) should be specified inside the script. Accordingly, the three associate csv files viz. energy.csv, energy_terms_index.csv, pc.csv have to be modified following the formatting given in the example files. Similarly, the two input csv files (Training_jPDF.csv and Testing_jPDF.csv) of jPDF.py have to be edited according to the results of econtact.py. Users may contact us if they need assistance in the calculations by sending an email to the contributor.
 
 **Installation (any OS):**
 
