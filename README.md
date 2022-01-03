@@ -49,3 +49,7 @@ Python 2.7 or later with matplotlib, numpy and pandas dependencies
 **Downloads:**
 
 The econtact and jPDF python scripts along with the example set can be downloaded here.
+
+**Contributor and help in execution:**
+
+prasanthbioinformatics[gmail]com
