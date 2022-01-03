@@ -9,7 +9,7 @@ The ECONTACT approach transforms the per-residue energy terms derived from multi
 
 **Publication**
 
-**Kumar SP**, Patel CN, Rawal RM, Pandya HA (2020). Energetic contributions of amino acid residues and its cross‐talk to delineate ligand‐binding mechanism. Proteins: Structure, Function, and Bioinformatics, 88(9), 1207-1225. https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25894
+**Kumar SP**, Patel CN, Rawal RM, Pandya HA (2020). Energetic contributions of amino acid residues and its cross‐talk to delineate ligand‐binding mechanism. _Proteins: Structure, Function, and Bioinformatics_, 88(9), 1207-1225. https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25894
 
 **Example**
 
