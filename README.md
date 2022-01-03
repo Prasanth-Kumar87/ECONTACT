@@ -30,6 +30,8 @@ In addition to the blac.data, three different csv (comma separated files) are al
 
 jPDF.py script requires two csv files (Training_jPDF.csv and Testing_jPDF.csv) to execute the jPDF calculations. The 6 beta-lactamase-ligand complexes were regarded as the training set which contained the values of per-residue energy terms (V-M-THR-253 and V-S-ILE-117) of the first cross-term (V-M-THR-253:V-S-ILE-117) in two columns of the csv. Similarly, a validation set using five PDB entries (3n7w, 3n8r, 3nc8, 3nde and 3ndg) is composed and chosen only those corresponding per-residue energy terms of the training set (see table below).
 
+![alt text](https://github.com/Prasanth-Kumar87/ECONTACT/blob/8c8824cbff0e86434bf8c8844c121e01f553192f/Table.PNG)
+
 **Instructions to run jPDF.py script**
 
 Run the jPDF.py script on the terminal: python jPDF.py. The jPDF.py script will output the calculated jPDF value of the supplied validation set of 5 blaC-ligand complexes. The jPDF metric quantifies how much strength the bound ligand is contributing to its interactions with two amino acids of cross-terms. The jPDF value close to 1 indicates the very close observation of cross-talks present in the modelling set. The jPDF results indicate that the 3nde (jPDF = 0.6; forth complex) possess 60 % probability of the presence of cross-talk in its structure. The first and fifth complexes (3n7w and 3ndg) attained jPDF value > 1 illustrating the higher strength of intermolecular interactions of its bound ligand with the two amino acid residues of cross-talk comparatively than the jPDF support set.
